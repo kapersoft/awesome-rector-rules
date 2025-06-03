@@ -2,6 +2,28 @@
 
 A set of awesome [Rector](https://github.com/rectorphp/rector) rules.
 
+## Installation
+
+Install via [Composer](https://getcomposer.org/):
+
+```bash
+composer require kapersoft/awesome-rector-rules --dev
+```
+
+Then register the rules in your `rector.php` config:
+
+```php
+use Kapersoft\AwesomeRectorRules\NullableTypeToUnionTypeRector;
+use Kapersoft\AwesomeRectorRules\MoveNullToEndOfUnionTypeRector;
+
+return static function (Rector\Config\RectorConfig $rectorConfig): void {
+    $rectorConfig->rules([
+        NullableTypeToUnionTypeRector::class,
+        MoveNullToEndOfUnionTypeRector::class,
+    ]);
+};
+```
+
 ## Included Rector Rules
 
 ### 1. NullableTypeToUnionTypeRector
