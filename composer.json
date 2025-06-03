@@ -1,6 +1,6 @@
 {
     "name": "kapersoft/awesome-rector-rules",
-    "description": "A collection for awesome Rector rules",
+    "description": "A collection of some awesome Rector rules",
     "license": "MIT",
     "type": "library",
     "keywords": [
