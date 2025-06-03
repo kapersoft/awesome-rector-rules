@@ -1,0 +1,10 @@
+# Composer
+/vendor/
+composer.lock
+
+# PHPUnit
+.phpunit.result.cache
+.phpunit.cache/
+
+# PHPStan
+.phpstan.cache/

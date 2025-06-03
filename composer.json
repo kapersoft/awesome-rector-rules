@@ -1,0 +1,45 @@
+{
+    "name": "kapersoft/awesome-rector-rules",
+    "description": "A collection for awesome Rector rules",
+    "license": "MIT",
+    "type": "library",
+    "keywords": [
+        "rector",
+        "php",
+        "static-analysis",
+        "refactoring"
+    ],
+    "authors": [
+        {
+            "name": "Jan Willem Kaper",
+            "email": "kapersoft@gmail.com",
+            "homepage": "https://kaper.dev"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "rector/rector": "^2.0.11"
+    },
+    "require-dev": {
+        "ergebnis/composer-normalize": "^2.47",
+        "laravel/pint": "^1.22",
+        "phpstan/phpstan": "^2.1",
+        "phpunit/phpunit": "^10.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Kapersoft\\AwesomeRectorRules\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kapersoft\\AwesomeRectorRules\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
+    }
+}
