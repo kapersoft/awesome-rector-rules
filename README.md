@@ -68,6 +68,10 @@ function someFunction(string|null $param): int|null
 }
 ```
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a history of changes.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
